@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Start Test" parallel ="methods" preserve-order="true" group-by-instances="true" object-factory="organized.chaos.forums.testng.MyObjectFactory">
+
+    <listeners>
+
+    </listeners>
+    <test name= "PHPTravels">
+        <packages>
+            <package name="organized.chaos.forums.testng.*"/>
+        </packages>
+        <classes >
+          </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
